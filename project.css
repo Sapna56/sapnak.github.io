@@ -1,0 +1,252 @@
+
+.menu li {
+    font-size: 30px;
+    display: block;
+    
+
+    list-style-type: disc;
+list-style-position: outside;
+    color: white;
+
+
+}
+header{
+    
+    text-shadow: 5px 5px 5px rgb(178, 86, 92);
+    
+    background-color: black;
+    
+}
+nav{
+
+    background-color: black;
+    width: 100%;
+    
+}
+nav a {
+    display: inline;
+}
+#hello{
+    display: inline;
+    text-align: center;
+    
+}
+
+marquee{
+    background-color:blue;
+    color: white;
+    
+    
+    
+    
+    
+}
+
+
+main{
+    overflow-x: hidden;
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 80%;
+    
+    animation: animate 3s linear infinite;
+}
+.firstpage{
+    align-items: center;
+    align-self: center;
+}
+footer{
+    align-items: baseline;
+    
+    height:10%;
+}
+button{
+    background-color: black;
+}
+
+#forms{
+    border: 0.1cm;
+    border-style: groove;
+    text-align: center;
+    background-color: hsl(183, 67%, 29%);
+    display: block;
+    align-items: center;
+    
+}
+input{
+    text-align: left;
+    width:50%;
+    
+}
+form{
+    box-sizing: 100%;
+    size: 100%;
+    background-color:hsl(183, 67%, 29%);
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    border-style:groove;
+    border-width:0.1cm;
+    padding: 5% 5%;
+    width: 80%;
+
+
+    
+}
+.formalign{
+    
+
+    display: block;
+    
+width: 100%;
+    text-align: center;
+}
+ #myimage{
+    
+    background-color: white;
+    box-sizing: content-box;
+width: 20%;
+margin-left: 40%;
+margin-right: 40%;
+    border: 0.1cm;
+    border-radius: 49px;
+    border-width: 0.3cm black;
+    padding: 10px;
+    max-width: 100%;
+    height: 350;
+    animation: noanimate ;
+}
+
+
+#name{
+    text-align: center;
+    text-shadow: 04px 4px 5px blueviolet;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+article{
+    text-decoration-style: solid;
+    text-shadow: 0.5cm;
+    text-align: center;
+}
+footer{
+    background-color: black;
+}
+#bio{
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(154, 154, 210);
+    font-size: 0.5cm;
+}
+.belowname{
+    text-shadow: 2px 2px 2px rgb(154, 154, 210);
+    text-align: center;
+    text-decoration: wavy;
+    list-style-type: none;
+}
+
+
+#edu{
+
+
+    text-align: center;
+    list-style: none;
+text-transform: uppercase;
+font-size: 1cm;
+text-shadow: 5px 5px 5px purple;
+}
+.exp{
+font-size: 0.6cm;
+    text-decoration-color: rgb(9, 3, 3);
+    list-style: none;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(57, 32, 32);
+}
+#eduimage{
+    animation: animate 3s linear infinite;
+    object-position: bottom;
+    width: 100%;
+    height: 300px;
+    
+    image-rendering: crisp-edges;
+}
+
+#skills{
+    text-align: center;
+}
+.skills{
+    text-align: center;
+
+}
+.list{
+    list-style: none;
+}
+
+#skillimage{
+    border: 0.5cm;
+    border-radius: 2%;
+    border-color: blue;
+
+    width: 90%;
+    object-position: bottom;
+    width: 100%;
+    height: 300px;
+    animation: animate 4s linear infinite;
+    image-rendering: crisp-edges;
+}
+@keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    0%{
+        filter: hue-rotate(360deg);
+    }
+}
+.skills{
+    text-shadow: 2px 2px 2px violet;
+}
+.project{
+    list-style: none;
+    text-align: center;
+    text-shadow: 2px 2px 2px violet;
+
+}
+#project{
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px rgb(48, 13, 54);
+}
+.contact{
+    text-align: left;
+}
+#submit:hover{
+    background-color: rgb(204, 236, 59);
+}
+button:hover{
+    background-color:white;
+}
+a:hover{
+    background-color: white;
+}
+.contact{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.3;
+    text-shadow: 2px 2px 2px rgb(220, 127, 220);
+}
+button {
+    text-align: left;
+    display:block;
+    max-width: fit-content;
+
+}
+    .button{
+    
+        
+        object-fit: contain;
+    }
+
+    .profile
+    {
+        background-color: brown;
+    }
+    

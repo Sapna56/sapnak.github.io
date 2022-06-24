@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+
+
+<style>
+    body,html{
+        height: 100%;
+        margin: 0;
+    }
+    .bg{
+        animation: animate 3s linear infinite;
+        height: 100%;
+        background-image: url(firstpage2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-y:hidden;
+    }
+    @keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    0%{
+        filter: hue-rotate(360deg);
+    }
+}
+    
+
+
+    
+    .menu li{
+        font-weight: bold;
+        text-decoration:solid;
+        
+        color:white;
+        font-size:medium;
+        display: block;
+        color: black;
+        
+        
+    }
+    .menu{
+        
+        align-self:baseline;
+        text-align: left;
+        font-style: italic ;
+        padding: 1cm;
+        background-color: white;
+        width: max-content;
+    }
+     button:hover{
+        background-color: black;
+     }
+    #know{
+font-size: 0.5;
+        color: pink;
+        
+        align-self: left;
+        text-align: left;
+        font-style: italic ;
+    }
+    marquee{
+        font-size: 0.8cm;
+        background-color: black;
+        color: white;
+    }
+</style>
+</head>
+<body >
+    <div class="bg">
+        <marquee  behavior="scroll" direction="left" > <br><i><h2 id="hello">HELLO EVERYONE !</h2> <p id="hello">&nbsp;&nbsp; <b>I am Sapna, a Frontend Web Developer ,exploring Backend development and looking forward to be a software engineer. I believe in EXPLORE , EVOLVE & ELEVATE.<b></p> </i> <br></marquee>
+            <br>
+       <div class="menu">
+        <button id="know"><h3><b> KNOW MORE !</b></h3></button>
+            <li><a href="intro.html">INTRODUCTION</a></li>
+            <li><a href="education.html">EDUCATION & EXPERIENCE</a></li>
+            <li><a href="skills.html">SKILLS & PROJECTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
